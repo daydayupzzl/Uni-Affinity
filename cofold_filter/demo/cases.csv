@@ -1,0 +1,4 @@
+case,system_id,seed,model_ligand_chain,ligand_ccd,ligand_smiles,n_heavy_atoms,lig_plddt,J_mm,P_mm,L_tc_ccd,true_ligand_rmsd,true_success,true_ifp_recall
+low_quality,7rmb__1__1.A_2.A__2.B,1,C,5Z7,O=C(c1cc(=O)[nH]c(=O)[nH]1)N1CCN(c2ccc(Br)c(Cl)c2)CC1,24,0.0616,100.0,100.0,1.0,30.964,False,0.0
+high_quality_high_hallucination,7umo__1__1.A__1.G_1.I,1,B,NT6,O=C(Nc1cc(Cl)c(Cl)cn1)C12CC3CC(CC(C3)C1)C2,21,0.8989,13.79,100.0,0.3958,7.376,False,0.5556
+high_quality_low_hallucination,7om1__1__1.A_1.B__1.E,2,C,1OI,COc1ccc2c(=O)[nH]c3sccc3c2c1,16,0.9882,100.0,100.0,1.0,0.181,True,1.0
